@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import ProductCart from "../components/ProductCart";
+import ProductCart from "../components/ProductCard";
 
 const Home = () => {
 

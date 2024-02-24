@@ -11,7 +11,7 @@ type ProductsProps = {
 
 const server = "sjkfhksjd";
 
-const ProductCart = ({productId, price, name, photo, stock, handler}:ProductsProps) => {
+const ProductCard = ({productId, price, name, photo, stock, handler}:ProductsProps) => {
     return (
         <div className="product-card">
             <img src={photo} alt={name} />
@@ -26,4 +26,4 @@ const ProductCart = ({productId, price, name, photo, stock, handler}:ProductsPro
     );
 };
 
-export default ProductCart;
+export default ProductCard;
